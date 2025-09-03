@@ -5,7 +5,7 @@ import { useState } from "react";
 import WorkersTable from "../../components/pages/workers/WorkersTable";
 import WorkerModal from "../../components/pages/workers/WorkerModal";
 import DashboardHeader from "../../components/ui/DashboardHeader";
-import Button from "../../components/ui/button";
+import Button from "../../components/ui/Button";
 
 export default function WorkersDashboard() {
   const [isModalOpen, setIsModalOpen] = useState(false);
