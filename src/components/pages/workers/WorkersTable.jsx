@@ -1,6 +1,6 @@
 "use client";
 import { motion as Motion } from "framer-motion";
-import Button from "../../ui/button";
+import Button from "../../ui/Button";
 import { Link } from "react-router-dom";
 
 const WorkersTable = ({ onEdit }) => {

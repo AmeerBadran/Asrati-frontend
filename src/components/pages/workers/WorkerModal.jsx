@@ -1,6 +1,6 @@
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import Button from "../../ui/button";
+import Button from "../../ui/Button";
 
 
 const WorkerModal = ({ isOpen, onClose, worker }) => {
